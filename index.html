@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/refs/bs-5/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="./assets/refs/fa-5/all.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header id="header" class="fixed-top bg-light px-lg-5 px-md-4 px-sm-3 px-2 shadow-sm py-3">
+        <div class="d-flex justify-content-between align-items-center">
+
+            <div id="access_menu">
+                <!-- Example single danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger rounded  d-flex align-items-center"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas  fs-5 fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#home">خانه</a></li>
+                        <li><a class="dropdown-item" href="#">درباره ما</a></li>
+                        <li><a class="dropdown-item" href="#">خدمات</a></li>
+                        <li><a class="dropdown-item" href="#">نمونه کار ها</a></li>
+                        <li><a class="dropdown-item" href="#">نظرات مشتریان</a></li>
+                        <li><a class="dropdown-item" href="#">تماس با ما </a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="site_brand">
+                <h1 class="fs-3 fw-bold text-danger">
+                    MSI
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="position-relative">
+        <div class="d-flex align-items-center min-vh-100  justify-content-center">
+            <div class="col-11 col-md-9 col-lg-7 mx-auto row">
+                <div class="col-md-5">
+                    <img src="./assets/img/profile.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <p class="text-muted">
+                        سلام من
+                    </p>
+                    <h2 class="fs-3 text-danger">
+                        طراح و برنامه نویس وب هستم
+                    </h2>
+                    <p class="text-dark fs-4">
+                        فرزاد معصومی
+                    </p>
+                    <p class="text-justifyed">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                    </p>
+                    <a href="#" class="btn btn-danger px-3"> نمونه کار های من </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="./assets/refs/bs-5/bootstrap.bundle.min.js"></script>
     <script src="./assets/refs/fa-5/all.min.js"></script>
 </body>
+
 </html>

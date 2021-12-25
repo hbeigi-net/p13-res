@@ -1,0 +1,17 @@
+@font-face {
+    font-family: mikhak;
+    src: url("../refs/mikhak/Mikhak-VF[wght\,KSHD\,DSTY].woff2");
+}
+body
+{
+    font-family: mikhak;
+    scroll-behavior: smooth;
+}
+#header 
+{
+    z-index: 1000;
+}
+.text-justifyed
+{
+    text-align: justify;
+}
